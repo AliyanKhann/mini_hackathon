@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+nav.nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    height: 42px;
+    background-color: #6833fcf5;
+    align-items: center;
+    color: white;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+}
+
+#heading{
+     
+      height: 60px;
+      padding-left: 250px;
+      padding-top: 20px;
+      border-bottom: 1px solid gainsboro;
+      background-color: white;
+  }
+
+  #main {
+    background-color: #dcdcdc33;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+nav.nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    height: 42px;
+    background-color: #6833fcf5;
+    align-items: center;
+    color: white;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+}
+
+#heading{
+     
+      height: 60px;
+      padding-left: 250px;
+      padding-top: 20px;
+      border-bottom: 1px solid gainsboro;
+      background-color: white;
+  }
+
+  #main {
+    background-color: #dcdcdc33;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+#login-form{
+    background-color: white;
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+    box-shadow: -1px 3px 10px 3px gray;
+    align-items: center;
+    justify-content: center;
+}
+
+input.inpt {
+    display: flex;
+    width: 60%;
+    height: 30px;
+    border: 1px solid #6833fc1f;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.btn {
+    background-color: #6833fcf5;
+    color: white;
+    width: 90px;
+    height: 38px;
+    border-radius: 7px;
+    border: none;
+}

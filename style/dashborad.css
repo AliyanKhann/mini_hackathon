@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+nav.nav {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    height: 42px;
+    background-color: #6833fcf5;
+    align-items: center;
+    color: white;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+}
+
+#heading{
+     
+      height: 60px;
+      padding-left: 250px;
+      padding-top: 20px;
+      border-bottom: 1px solid gainsboro;
+      background-color: white;
+  }
+
+  #main {
+    background-color: #dcdcdc33;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-left:30px ;
+}
+#dashboard {
+    background-color: white;
+    width: 66%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    box-shadow: -1px 3px 10px 3px gray;
+    justify-content: center;
+    padding: 25px;
+}
+input.inpt {
+    display: flex;
+    width: 60%;
+    height: 30px;
+    border: 1px solid #6833fc1f;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+textarea.inpt{
+    padding-left: 20px;
+    padding-top:10px ;
+}
+.btn {
+    background-color: #6833fcf5;
+    color: white;
+    width: 90px;
+    height: 38px;
+    border-radius: 7px;
+    border: none;
+}
+div#main2 {
+    background-color: white;
+    width: 65%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    box-shadow: -1px 3px 10px 3px gray;
+    justify-content: center;
+    margin-left: 25px;
+}
